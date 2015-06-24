@@ -9,7 +9,7 @@
  *     }
  * }
  */ 
-public class Partition{
+public class Solution {
     /**
      * @param head: The first node of linked list.
      * @param x: an integer

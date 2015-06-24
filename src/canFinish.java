@@ -1,6 +1,5 @@
-public class canFinish {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        if(numCourses == 0 || prerequisites.length == 0)
+public boolean canFinish(int numCourses, int[][] prerequisites) {
+        iif(numCourses == 0 || prerequisites.length == 0)
             return true;
         LinkedList<Integer> queue = new LinkedList<Integer>();
         HashMap<Integer,ArrayList<Integer>> map = new HashMap<Integer,ArrayList<Integer>>();
@@ -29,5 +28,4 @@ public class canFinish {
         }
         return count == 0;
     }
-    
 }
