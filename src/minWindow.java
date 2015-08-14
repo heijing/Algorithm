@@ -1,4 +1,4 @@
-public class Solution {
+public class minWindow {
     public String minWindow(String s, String t) {
       if(s.length() < t.length())
         return "";
